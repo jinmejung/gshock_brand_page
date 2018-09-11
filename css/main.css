@@ -1,0 +1,138 @@
+        /* reset */
+        body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,th,td,form,fieldset,legend,input,label,textarea,select,button {margin:0; padding:0;}
+        body,h1,h2,h3,h4,h5,h6 {font-size:12px;}
+        a {text-decoration:none; color:#333;}
+        img,fieldset {border:none;}
+        ul,ol,li {list-style:none;}
+        strong,em,address {font-style:normal; font-weight:normal;}
+        table {border-collapse:collapse;}
+        
+		#design_wrap{
+            width:100%;
+            height:100%;
+            font-family:'Raleway','Noto Sans KR','nanumgothic', sans-serif; 
+        }
+		
+        
+        /* main visual */
+        .main_visual{
+            background:url(../img/gshock_main.jpg) no-repeat center top;
+            background-size:cover;
+            height:730px;
+            position:relative;
+        }
+        .main_visual .main_logo{
+            text-align: center;
+            padding-top:75px;
+        }
+        
+        /* brand story */
+        .brand_story{
+            width:70%;
+            margin:80px auto;
+            font-family:'Noto Sans KR', sans-serif;
+        }
+        .brand_story .brand_tit{
+            text-align: center;
+            color:#333;
+            font-size:70px;
+            letter-spacing: -1.5px;
+            line-height: 1.2;
+            font-family:'Raleway',sans-serif;
+            font-weight:800;
+        }
+        .brand_story p{
+            text-align:center;
+            color:#666;
+            font-size:18px;
+            letter-spacing: -1.5px;
+            font-weight:300;
+            padding-top:20px;
+            line-height: 180%;
+        }
+        
+        /* section */
+        .section_wrap{
+            width:100%;
+            margin:0 auto;
+        }
+        .sub_wrap{
+            width:100%;
+            overflow: hidden;
+            position:relative;
+            height:100vh;
+        }
+        .sub_wrap.bigface{
+            background:url(../img/gshock_sec_bg1.jpg) no-repeat;
+            background-size:cover;
+        }
+        .sub_wrap.master{
+            background:url(../img/gshock_sec_bg2.jpg) no-repeat center top;
+            background-size:cover;
+        }
+        .sub_wrap.gsteel{
+            background:url(../img/gshock_sec_bg3.jpg) no-repeat center top;
+            background-size:cover;
+        }
+        .sub_wrap.digital{
+            background:url(../img/gshock_sec_bg4.jpg) no-repeat center top ;
+            background-size:cover;
+        }
+        .sub_wrap.babyg{
+            background:url(../img/gshock_sec_bg5.jpg) no-repeat ;
+            background-size:cover;
+        }
+        .sub_wrap .contents_box{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+        }
+        .sub_wrap .box_right{
+            left:10%;
+        }
+        .sub_wrap .box_left{
+            right:10%;
+        }
+        .sub_wrap.master .contents_box{
+            top:30%;
+        }
+        .sub_wrap .txt_box{
+            font-family:'Noto Sans KR', sans-serif;
+            color:#fff;
+            letter-spacing: -0.5px;
+        }
+        .sub_wrap .txt_box h2{
+            font-size:75px;
+            font-family:'Raleway', sans-serif;
+            font-weight:800;
+        }
+        .sub_wrap .txt_box h2 a{
+            color:#fff;
+            font-size:60px;
+            position:relative;
+            left:20px;
+        }
+		.sub_wrap .txt_box h2 a img{
+			vertical-align: 0;
+		}
+		 
+        .sub_wrap .txt_box span{
+            font-size:30px;
+            font-weight:500;
+            display:block;
+            padding-top:18px;
+        }
+        .sub_wrap .txt_box p{
+            font-size:18px;
+            font-weight:300;
+            padding-top:18px;
+            line-height:180%;
+        }
+        .sub_wrap .img_box{
+            margin-top:90px;
+            margin-left:-50px;
+            
+        }
+        .sub_wrap .img_box img{
+            padding-right:40px;
+        }
